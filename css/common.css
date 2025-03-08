@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+/* ============  task-1.js   ====== */
+  .item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  
+  background: #f6f6fe;
+  margin-bottom: 24px;
+  }
+  
+  .item-title {
+  padding-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  }
+  
+  .item-block {
+      width: 360px;
+  }
+  
+  .item-detals {
+      margin-bottom: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+    
+      font-size: 16px;
+      font-weight: 400;
+  
+      letter-spacing: 0.04em;
+      line-height: 1.5;
+      color: #2e2f42;
+  
+      border: 1px solid #808080;
+      width: 360px;
+      border-radius: 4px;
+      height: 40px;
+  
+  }
+
+  /* ======= task-2.js ======= */
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .login-form {
+    width: 408px;
+    padding: 24px;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+  }
+
+  .login-form-label {
+    font-size: 16px;
+    font-weight: 400;
+
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: #2e2f42;
+    padding-bottom: 8px;
+    
+  }
+
+  .login-form-input {
+    border: 1px solid #808080;
+    width: 360px;
+    border-radius: 4px;
+    
+    height: 40px;
+    margin-top: 8px;
+
+  }
+
+  .button-form {
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 86px;
+    padding: 8px 16px;
+    height: 40px;
+
+    background: #4e75ff;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+/* ========= task-5 ================ */
+
+.widget {
+  padding: 100px 88px;
+  width: 345px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.color-p {
+  width: 169px;
+
+  font-size: 16px;
+  font-weight: 400;
+ 
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  border-radius: 8px;
+  width: 148px;
+  padding: 8px 16px;
+  height: 40px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #fff;
+
+  background: #4e75ff;
+}
+
+/* =========== task-6 =========== */
+
+#controls {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  width: 486px;
+  padding: 32px;
+  height: 104px;
+
+  background: #f6f6fe;
+}
+
+.controls-input {
+  border: 1px solid #808080;
+border-radius: 8px;
+padding: 8px 72px;
+width: 150px;
+height: 40px;
+
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.button-create, 
+.button-destroy {
+  border-radius: 8px;
+  width: 120px;
+  padding: 8px 16px;
+  border: none;
+  height: 40px;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #fff;
+}
+.button-create {
+  background: #4e75ff;
+}
+.button-destroy {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  padding: 32px;
+  gap: 44px;
+}
