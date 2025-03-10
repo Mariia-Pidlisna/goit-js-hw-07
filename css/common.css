@@ -234,4 +234,5 @@ color: #2e2f42;
   display: flex;
   padding: 32px;
   gap: 44px;
+  flex-wrap: wrap;
 }
